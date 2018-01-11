@@ -1,0 +1,38 @@
+{"intents":[
+ {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+         
+        },
+{"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+ {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+{"tag": "fees",
+         "patterns": ["How do I pay the fees", "What are the steps to pay the fees", "Instruct me through the fees payment process", "How to pay fees- instructions"],
+         "responses": ["follow this link - https://www.aukdc.edu.in/onlinefee/gotoAgree.htm"]
+         
+        },
+{"tag": "clubs",
+         "patterns": ["What are the clubs in anna university?", "which clubs can i join in the college", "find me clubs in the university", "Are there any clubs?", "Which clubs help me pursue my interest"],
+         "responses": [" CEG Tech Forum, Quizzers Anonymous, Theatron etc ,for more details follow the link: http://ceg.annauniv.edu/clubs.html", " CSAU, LIT Club,Saptham,Madhavam,etc ,for more details follow the link: http://ceg.annauniv.edu/clubs.html", "Robotics club,Spartanz, Aakrithi etc ,for more details follow the link:http://ceg.annauniv.edu/clubs.html"]
+         
+        },
+{"tag": "Results",
+         "patterns": ["I need to check my results", "semester results", "Where to check my marks?", "How do i check my results?"],
+         "responses": ["Follow this link : http://acoe.annauniv.edu/student/","Enter your register number and password in this link: http://acoe.annauniv.edu/student/","Check this website : http://acoe.annauniv.edu/student/"]
+  
+        },
+
+{"tag": "Library",
+         "patterns": ["When is the library open?", "what are the library timings?", "What time should i visit the library?", "When does the library close"],
+         "responses": ["The library is open on all days except public holidays. timings are mon-fri 8 am to 10pm, sat,sun-9 am to 5pm"]
+         
+        }
+
+]
+}
